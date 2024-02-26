@@ -1,0 +1,319 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  width: 100%;
+  margin: 0px;
+  box-sizing: border-box;
+  background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: 100%;
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.logo {
+  background-color: orangered;
+  width: 200px;
+  height: 130px;
+  padding: 10px;
+}
+.logo img {
+  width: 100px;
+  margin: 15px;
+  padding: 15px;
+}
+.menu-list {
+  position: relative;
+  left: -60px;
+}
+.menu-list * {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+.menu-list li a {
+  margin-left: 80px;
+  padding: 20px;
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+
+  flex-direction: row;
+}
+
+.menu-list li {
+  list-style-type: none;
+  background-color: azure;
+}
+
+.gfq {
+  font-size: 16px;
+  width: 130px;
+  margin: 20px 5px;
+  padding: 30px;
+  border: none;
+  background-color: orangered;
+}
+
+.gfq a {
+  color: white;
+}
+
+.header-1 {
+  color: rgb(230, 230, 230);
+  font-size: 40px;
+  margin: 10px 20px;
+}
+.head-1 {
+  width: 60%;
+}
+.head-0 {
+  font-size: 20px;
+  margin: 0 20px;
+}
+.btn-1 {
+  background-color: rgb(85, 0, 255);
+  margin: 20px;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+.container {
+  border: 1px solid lightgrey;
+  padding: 14px;
+  margin: 150px 240px;
+  margin-right: 100px;
+  width: 80%;
+  background-color: orangered;
+  display: flex;
+}
+.head-1 {
+  margin: 20px 50px;
+  padding: 30px;
+}
+
+.head-2 {
+  color: rgb(241, 234, 234);
+  margin: 10px 50px;
+}
+
+.container-2 {
+  border: 1px solid lightgray;
+  padding: 14px;
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card-2 {
+  width: 250px;
+  border: none;
+  padding: 40px;
+}
+.card-2 img {
+  width: 50%;
+  height: 100px;
+}
+.container-3 {
+  border: 1px solid lightgray;
+  padding: 14px;
+  margin: 10px 10px;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+}
+.card-3 {
+  width: 550px;
+  border: none;
+  padding: 10px;
+}
+
+.card-3 img {
+  margin: 20px 5px;
+}
+.container-4 {
+  border: 1px solid lightgrey;
+  padding: 14px;
+  margin: 10px 10px;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+}
+.card-4 {
+  margin: 14px;
+  padding: 14px;
+  border: none;
+  width: 230px;
+}
+.head-4 {
+  color: orangered;
+  font-size: 70px;
+}
+.container-5 {
+  display: flex;
+  width: 96%;
+  justify-content: center;
+  margin: 10px 10px;
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+.headd {
+  width: 100%;
+}
+
+.card-5 {
+  padding: 20px;
+  margin: 60px 5px;
+  margin-right: 200px;
+  display: flex;
+  width: 900px;
+  justify-content: center;
+}
+.card-5-img {
+  width: 350px;
+
+  padding: 20px;
+}
+
+.card-6 {
+  display: flex;
+  width: 96%;
+  justify-content: center;
+  margin: 10px 10px;
+  padding: 10px;
+}
+.card-6 img {
+  width: 350px;
+
+  padding: 20px;
+}
+.container-6 {
+  background-color: orangered;
+  color: #fff;
+  text-align: center;
+  height: 300px;
+}
+.btn6 {
+  background-color: orangered;
+  justify-content: center;
+  border: none;
+  color: #fff;
+}
+.btn6 hr {
+  width: 90px;
+}
+.container-7 {
+  font-size: 30px;
+
+  height: 50px;
+  padding: -30px;
+}
+.cardcontent {
+  display: flex;
+  padding: 60px;
+  gap: 150px;
+  font-size: 12px;
+  height: 350px;
+  color: rgb(20, 20, 20);
+}
+.card-7 p {
+  padding: 20px;
+}
+.container-8 {
+  display: flex;
+  height: 500px;
+}
+.card-8 {
+  padding-top: 250px;
+  width: 50%;
+  text-align: center;
+}
+.card-9 {
+  width: 20%;
+  height: 100px;
+  padding: 2px 10px 10px 10px;
+}
+.card-10 {
+  width: 33%;
+  height: 100px;
+  padding: 10px 10px 10px 10px;
+  align-items: center;
+}
+.card-10 img {
+  width: 50%;
+  height: 100%;
+}
+
+.news {
+}
+.box-21 {
+  display: flex;
+}
+footer {
+  position: relative;
+  padding-top: 150px;
+}
+.footer {
+  display: flex;
+  background-color: rgb(6, 6, 107);
+}
+.bottom {
+  color: whitesmoke;
+}
+.about {
+  color: whitesmoke;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+}
+.desc-about {
+  text-align: center;
+  align-items: center;
+  font-size: 15px;
+  padding: 20px;
+}
+.service {
+  color: whitesmoke;
+  margin: 20px;
+  padding: 10px;
+}
+.links {
+  color: whitesmoke;
+  margin: 20px;
+  padding: 10px;
+}
+.links-a {
+  color: whitesmoke;
+}
+.connect {
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.phone-icon img {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  align-items: center;
+}
+.contact {
+  color: whitesmoke;
+  text-align: center;
+  align-items: center;
+}
+.connect h1,
+.connect h3 {
+  color: whitesmoke;
+  text-align: center;
+  align-items: center;
+}
+.connect p {
+  color: whitesmoke;
+  text-align: center;
+  align-items: center;
+}
